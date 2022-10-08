@@ -3,7 +3,7 @@
     internal sealed class LogsSerializer
     {
         private ILogSerializer logSerializer;
-        
+    
         public ILogSerializer LogSerializer
         {
             get => logSerializer;

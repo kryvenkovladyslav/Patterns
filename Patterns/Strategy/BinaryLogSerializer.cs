@@ -19,7 +19,6 @@ namespace Patterns.Strategy
             }
             return result;
         }
-
         public bool SerializeLogs(string path, object graph)
         {
             using (FileStream stream = File.Open(path, FileMode.Create, FileAccess.Write))

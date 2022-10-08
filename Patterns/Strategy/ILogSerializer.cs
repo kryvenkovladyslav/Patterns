@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Patterns.Strategy
+﻿namespace Patterns.Strategy
 {
     internal interface ILogSerializer
     {
